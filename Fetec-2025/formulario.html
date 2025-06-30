@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perguntas - Estudo Prime</title>
+  <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+  <header>
+    <h1>Vamos nos conhecer!</h1>
+    <p>Responda para montarmos seu cronograma ideal</p>
+  </header>
+  <div class="container-principal">
+  <main class="form-section">
+      <label>Qual matéria você tem mais dificuldade?</label>
+      <input type="text" required>
+
+      <label>Quais matérias você tem mais facilidade?</label>
+      <input type="text" required>
+
+      <label>Quantas horas por dia você pode estudar?</label>
+      <input type="number" min="1" required>
+
+      <label>Qual seu melhor horário para estudar?</label>
+      <input type="text" placeholder="Ex: Noite, Tarde, etc." required>
+
+      <label>Você estuda com metas diárias ou semanais?</label>
+      <select required>
+        <option value="">Selecione</option>
+        <option value="diarias">Metas Diárias</option>
+        <option value="semanais">Metas Semanais</option>
+      </select>
+
+      <label>Você está no Ensino Médio?</label>
+      <select required>
+        <option value="">Selecione</option>
+        <option value="sim">Sim</option>
+        <option value="nao">Não</option>
+      </select>
+
+      <label>Você está na faculdade?</label>
+      <select required>
+        <option value="">Selecione</option>
+        <option value="sim">Sim</option>
+        <option value="nao">Não</option>
+      </select>
+      <a href="cronograma.html">
+      <button type="submit">Próximo</button>
+    </a>
+  </main>
+</div>
+</body>
+</html>
